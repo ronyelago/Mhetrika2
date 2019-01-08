@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <ul>
+        <li>
+            <a href="@Url.Action("List", "Patient")">Ver Pacientes</a>
+        </li>
+        <li>
+            <a href="@Url.Action("New", "Patient")">Cadastrar Paciente</a>
+        </li>
+        <li>
+            <a href="@Url.Action("List", "Laboratory")">Ver Laboratórios</a>
+        </li>
+        <li>
+            <a href="@Url.Action("New", "Laboratory")">Cadastrar Laboratório</a>
+        </li>
+        <li>
+            <a href="@Url.Action("List", "Doctor")">Ver Médicos</a>
+        </li>
+        <li>
+            <a href="@Url.Action("New", "Doctor")">Cadastrar Médico</a>
+        </li>
+    </ul>
+</div>
